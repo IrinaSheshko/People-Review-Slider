@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/IrinaSheshko/People-Review-Slider/static/css/main.f313b137.css",
-    "main.js": "/IrinaSheshko/People-Review-Slider/static/js/main.eaa05db0.js",
-    "static/js/787.ae8ebe74.chunk.js": "/IrinaSheshko/People-Review-Slider/static/js/787.ae8ebe74.chunk.js",
-    "index.html": "/IrinaSheshko/People-Review-Slider/index.html",
-    "main.f313b137.css.map": "/IrinaSheshko/People-Review-Slider/static/css/main.f313b137.css.map",
-    "main.eaa05db0.js.map": "/IrinaSheshko/People-Review-Slider/static/js/main.eaa05db0.js.map",
-    "787.ae8ebe74.chunk.js.map": "/IrinaSheshko/People-Review-Slider/static/js/787.ae8ebe74.chunk.js.map"
+    "main.css": "/People-Review-Slider/static/css/main.f313b137.css",
+    "main.js": "/People-Review-Slider/static/js/main.ee9caacc.js",
+    "static/js/787.ae8ebe74.chunk.js": "/People-Review-Slider/static/js/787.ae8ebe74.chunk.js",
+    "index.html": "/People-Review-Slider/index.html",
+    "main.f313b137.css.map": "/People-Review-Slider/static/css/main.f313b137.css.map",
+    "main.ee9caacc.js.map": "/People-Review-Slider/static/js/main.ee9caacc.js.map",
+    "787.ae8ebe74.chunk.js.map": "/People-Review-Slider/static/js/787.ae8ebe74.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f313b137.css",
-    "static/js/main.eaa05db0.js"
+    "static/js/main.ee9caacc.js"
   ]
 }
