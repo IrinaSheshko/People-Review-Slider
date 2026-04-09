@@ -1,38 +1,90 @@
-.App {
+body{
+  background-color: #e6e4e4;
+}
+.slider-container {
   text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.slider {
+  position: relative;
+  width: 350px;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.person-card {
+  width: 300px;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+  background-color: #ffffff; /* один нейтральный фон */
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+  transition: transform 0.3s ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.person-card:hover {
+  transform: translateY(-3px);
+}
+
+.person-image {
+  width: 100%; /* прямоугольная форма */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 14px;
+  color: #555;
+}
+
+.age {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.btn-container {
+  margin-top: 15px;
+}
+
+.nav-btn {
+  background-color: #758ba3;
   color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-btn:hover {
+  background-color: #6682a0;
+  transform: translateY(-2px);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fade-text {
+  opacity: 0;
+  animation: fadeIn 0.8s forwards 0.2s;
+}
+.random-btn {
+  margin-top: 1rem;
+  background: #ebf7ff;
+  color: #49a6e9;
+  padding: 0.25rem 0.5rem;
+  text-transform: capitalize;
+  border-radius: 0.5rem;
+  transition: all 0.3s linear;
+  border-color: transparent;
+  cursor: pointer;
+}
+.random-btn:hover {
+  background: #49a6e9;
+  color: #fff;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
 }
