@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"; // Добавили useEffect
 import { data } from "./data";
 import PersonCard from "./PersonCard";
 import "./App.css";
+import { FaChevronLeft, FaChevronRight, FaQuoteRight } from "react-icons/fa";
 
 function App() {
   const [index, setIndex] = useState(0);
@@ -19,13 +20,14 @@ function App() {
 
   // 2. Функция "Surprise Me" (Рандом)
   const randomPerson = () => {
+  setIndex((prevIndex) => {
     let randomNumber = Math.floor(Math.random() * data.length);
-    // Если рандом выдал тот же индекс, что и сейчас — просто берем следующий
-    if (randomNumber === index) {
-      randomNumber = (index + 1) % data.length;
+    if (randomNumber === prevIndex) {
+      randomNumber = (prevIndex + 1) % data.length;
     }
-    setIndex(randomNumber);
-  };
+    return randomNumber;
+  });
+};
 
   // Автоплей
   useEffect(() => {
@@ -45,21 +47,22 @@ function App() {
     <div className="slider-container">
       <h1 className="title">People Review Slider</h1>
       <div className="underline"></div> 
-      
-      <div className="slider">
-        <PersonCard person={person} />
-      </div>
 
-      <div className="btn-container">
-        <button className="nav-btn" onClick={() => changePerson("prev")}>
-          Previous
+
+    <div className="slider" key={person.id}>
+        <FaQuoteRight className="quote-icon" />
+        <PersonCard person={person} />
+    </div>
+  
+     <div className="btn-container">
+        <button className="nav-btn" onClick={() => changePerson("prev")} aria-label="previous person">
+         <FaChevronLeft />
         </button>
         <button className="nav-btn" onClick={() => changePerson("next")}>
-          Next
+        <FaChevronRight />
         </button>
       </div>
 
-      {/* Новая кнопка для портфолио */}
       <button className="random-btn" onClick={randomPerson}>
         Surprise Me
       </button>
