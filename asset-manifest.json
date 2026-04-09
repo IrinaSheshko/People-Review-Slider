@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/IrinaSheshko/People-Review-Slider.git/static/css/main.f313b137.css",
-    "main.js": "/IrinaSheshko/People-Review-Slider.git/static/js/main.4384e788.js",
-    "static/js/787.ae8ebe74.chunk.js": "/IrinaSheshko/People-Review-Slider.git/static/js/787.ae8ebe74.chunk.js",
-    "index.html": "/IrinaSheshko/People-Review-Slider.git/index.html",
-    "main.f313b137.css.map": "/IrinaSheshko/People-Review-Slider.git/static/css/main.f313b137.css.map",
-    "main.4384e788.js.map": "/IrinaSheshko/People-Review-Slider.git/static/js/main.4384e788.js.map",
-    "787.ae8ebe74.chunk.js.map": "/IrinaSheshko/People-Review-Slider.git/static/js/787.ae8ebe74.chunk.js.map"
+    "main.css": "/IrinaSheshko/People-Review-Slider/static/css/main.f313b137.css",
+    "main.js": "/IrinaSheshko/People-Review-Slider/static/js/main.eaa05db0.js",
+    "static/js/787.ae8ebe74.chunk.js": "/IrinaSheshko/People-Review-Slider/static/js/787.ae8ebe74.chunk.js",
+    "index.html": "/IrinaSheshko/People-Review-Slider/index.html",
+    "main.f313b137.css.map": "/IrinaSheshko/People-Review-Slider/static/css/main.f313b137.css.map",
+    "main.eaa05db0.js.map": "/IrinaSheshko/People-Review-Slider/static/js/main.eaa05db0.js.map",
+    "787.ae8ebe74.chunk.js.map": "/IrinaSheshko/People-Review-Slider/static/js/787.ae8ebe74.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f313b137.css",
-    "static/js/main.4384e788.js"
+    "static/js/main.eaa05db0.js"
   ]
 }
