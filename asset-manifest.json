@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/People-Review-Slider/static/css/main.f313b137.css",
-    "main.js": "/People-Review-Slider/static/js/main.ee9caacc.js",
+    "main.css": "/People-Review-Slider/static/css/main.f2e5776c.css",
+    "main.js": "/People-Review-Slider/static/js/main.1f48ee4f.js",
     "static/js/787.ae8ebe74.chunk.js": "/People-Review-Slider/static/js/787.ae8ebe74.chunk.js",
     "index.html": "/People-Review-Slider/index.html",
-    "main.f313b137.css.map": "/People-Review-Slider/static/css/main.f313b137.css.map",
-    "main.ee9caacc.js.map": "/People-Review-Slider/static/js/main.ee9caacc.js.map",
+    "main.f2e5776c.css.map": "/People-Review-Slider/static/css/main.f2e5776c.css.map",
+    "main.1f48ee4f.js.map": "/People-Review-Slider/static/js/main.1f48ee4f.js.map",
     "787.ae8ebe74.chunk.js.map": "/People-Review-Slider/static/js/787.ae8ebe74.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f313b137.css",
-    "static/js/main.ee9caacc.js"
+    "static/css/main.f2e5776c.css",
+    "static/js/main.1f48ee4f.js"
   ]
 }
